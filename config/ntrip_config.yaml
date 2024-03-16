@@ -1,0 +1,7 @@
+server_ip: "120.253.239.161"  # NTRIP caster IP ,such as 120.253.239.161(China mobile)
+server_port: 8002             # NTRIP caster TCP Port, such as 8002. In general, different ports correspond to different geodetic coordinate systems, such as 8002 for WGS84
+mountpoint: "RTCM33_GRCE"     # NTRIP caster mount point, which relates your RTK device.
+user: "username"              # user name. if you NTRIP caster needn't it, Please ignore this item or use the email name instead(such as RTK2go NTRIP Caster)
+passwd: "password"            # password. if you NTRIP caster needn't it, Please ignore this item or use "none"(such as RTK2go NTRIP Caster)
+transfer_port: 3503           # RTCM tranfer port, If you use ublox_driver, it should default to 3503.
+transfer_ip: "127.0.0.1"      # RTCM tranfer IP. No modification is usually required if the ublox_driver is running on the same computer as the ntrip_client
